@@ -44,7 +44,7 @@
       gestionarXml(this);
       }
       };
-      xhttp.open("GET", "xml/questions.xml", true);
+      xhttp.open("GET", "https://rawgit.com/oldmoo/autocorrecionXpathXslt/master/xml/questions.xml", true);
       xhttp.send();
         
         //LEER XSL de xml/questions.xml
